@@ -10,7 +10,7 @@ class ToDo {
 
   ToDo(String ti, List<Task> t) {
     tasks = t;
-    String title = ti;
+    title = ti;
   }
   int getPercentage() {
     int total = 0;
@@ -19,6 +19,7 @@ class ToDo {
         total++;
       }
     }
-    return total ~/ tasks.length * 100;
+
+    return (total / tasks.length * 100).toInt();
   }
 }
