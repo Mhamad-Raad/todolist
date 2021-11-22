@@ -7,10 +7,9 @@ import 'Task.dart';
 class ToDo {
   late String title;
   late List<Task> tasks;
-  late int percentage;
 
-  ToDo(String ti, Task t) {
-    tasks.add(t);
+  ToDo(String ti, List<Task> t) {
+    tasks = t;
     String title = ti;
   }
   int getPercentage() {
