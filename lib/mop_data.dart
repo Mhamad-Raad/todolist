@@ -4,7 +4,7 @@ import 'Todo.dart';
 
 // ignore: non_constant_identifier_names
 List<ToDo> TodoList = [
-  ToDo("MAP project", [
+  ToDo("MAP Project", [
     Task("Deliverable #1: project proposal and design", false),
     Task("Deliverable #2:prototype 1", true),
     Task("Deliverable #3:prototype 2", true),
