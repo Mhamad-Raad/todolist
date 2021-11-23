@@ -3,6 +3,7 @@
 // ignore_for_file: file_names
 
 import 'Task.dart';
+import 'detail.dart';
 
 class ToDo {
   late String title;
@@ -12,7 +13,8 @@ class ToDo {
     tasks = t;
     title = ti;
   }
-  int getPercentage() {
+
+  getPercentage() {
     int total = 0;
     for (int i = 0; i < tasks.length; i++) {
       if (tasks[i].status == true) {
